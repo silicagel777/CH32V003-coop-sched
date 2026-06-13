@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/blink.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "svdFile": "./CH32V003xx.svd",
+            "configFiles": [
+                "./openocd.cfg"
+            ],
+            "gdbPath": "riscv32-wch-elf-gdb",
+            "preLaunchTask": "build"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+Standard: Cpp11
+BasedOnStyle: LLVM
+ColumnLimit: 100
+IndentWidth: 2
+AccessModifierOffset: -2
+AlignAfterOpenBracket: false
+AlignTrailingComments: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
